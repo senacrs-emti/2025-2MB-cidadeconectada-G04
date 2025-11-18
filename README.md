@@ -4,7 +4,7 @@
 
 CityMove é um sistema web criado para auxiliar cidadãos no planejamento de rotas urbanas mais rápidas, econômicas e sustentáveis. O projeto utiliza integração com o Google Maps API para exibir trajetos, estimar impactos ambientais e sugerir alternativas de transporte mais eficientes.
 
-👥 Integrantes Leonardo Vilella – GitHub: tiozinhodomine Matheus dos Santos – GitHub: matheusacro Vitória Lima – GitHub: vitorialima011
+👥 Integrantes Leonardo Vilella – GitHub: tiozinhodomine / Matheus dos Santos – GitHub: matheusacro / Vitória Lima – GitHub: vitorialima011
 
 🎯 Objetivo Desenvolver uma aplicação web capaz de:
 Calcular rotas otimizadas dentro de áreas urbanas; 

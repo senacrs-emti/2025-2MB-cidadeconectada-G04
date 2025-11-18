@@ -6,11 +6,17 @@ CityMove é um sistema web criado para auxiliar cidadãos no planejamento de rot
 
 👥 Integrantes Leonardo Vilella – GitHub: tiozinhodomine Matheus dos Santos – GitHub: matheusacro Vitória Lima – GitHub: vitorialima011
 
-🎯 Objetivo Desenvolver uma aplicação web capaz de: Calcular rotas otimizadas dentro de áreas urbanas; Exibir alternativas de transporte (carro, transporte público, caminhada etc.); Fornecer informações sobre tempo, custo e impacto ambiental; Contribuir para uma mobilidade mais inteligente e sustentável nas cidades.
+🎯 Objetivo Desenvolver uma aplicação web capaz de:
+Calcular rotas otimizadas dentro de áreas urbanas; 
+Exibir alternativas de transporte (carro, transporte público, caminhada etc.);
+Fornecer informações sobre tempo, custo e impacto ambiental; 
+Contribuir para uma mobilidade mais inteligente e sustentável nas cidades.
 
-🧩 Justificativa O crescimento urbano aumenta os desafios de trânsito e impacto ambiental. O CityMove foi idealizado para unir tecnologia e sustentabilidade, mostrando como a programação pode contribuir para cidades mais eficientes, com menor emissão de poluentes e deslocamentos mais inteligentes. O projeto propõe uma solução real para problemas contemporâneos de mobilidade.
+🧩 Justificativa:
+O crescimento urbano aumenta os desafios de trânsito e impacto ambiental. O CityMove foi idealizado para unir tecnologia e sustentabilidade, mostrando como a programação pode contribuir para cidades mais eficientes, com menor emissão de poluentes e deslocamentos mais inteligentes. O projeto propõe uma solução real para problemas contemporâneos de mobilidade.
 
-🌍 Conexões com Áreas do Conhecimento Geografia: mobilidade urbana e urbanização Matemática: cálculos de distância, tempo e otimização Ciências Exatas: sustentabilidade e cálculo de emissões de CO₂ Tecnologia da Informação: programação, banco de dados e integração de APIs
+🌍 Conexões com Áreas do Conhecimento Geografia:
+Mobilidade urbana e urbanização Matemática: cálculos de distância, tempo e otimização Ciências Exatas: sustentabilidade e cálculo de emissões de CO₂ Tecnologia da Informação: programação, banco de dados e integração de APIs
 
 Tecnologias Utilizadas: Front-end HTML CSS
 

@@ -7,9 +7,8 @@
   <title>CityMove — Navegação Sustentável</title>
 
   <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="citymove\favicon.png">
 
-  <!-- ⚠ corrigido: usar / e não \ -->
-  <link rel="icon" href="citymove/imagens/favicon.png">
 </head>
 
 <body>

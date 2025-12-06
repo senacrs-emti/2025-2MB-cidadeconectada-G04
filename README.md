@@ -18,7 +18,7 @@ O crescimento urbano aumenta os desafios de trânsito e impacto ambiental. O Cit
 🌍 Conexões com Áreas do Conhecimento Geografia:
 Mobilidade urbana e urbanização Matemática: cálculos de distância, tempo e otimização Ciências Exatas: sustentabilidade e cálculo de emissões de CO₂ Tecnologia da Informação: programação, banco de dados e integração de APIs
 
-Tecnologias Utilizadas: Front-end HTML CSS
+Tecnologias Utilizadas: HTML/CSS/JS/PHP/API/IA
 
 Banco de Dados: MySQL
 

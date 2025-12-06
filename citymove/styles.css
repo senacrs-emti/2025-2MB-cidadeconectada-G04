@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background: #151823; 
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    color: #e6e6e6;
+    overflow: hidden;
+}
+
+
+header {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(135deg, #1e2130, #2b3042);
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 6px rgba(0, 150, 255, 0.4));
+}
+
+#container {
+    display: flex;
+    height: calc(100vh - 110px);
+}
+
+
+#controls {
+    width: 340px;
+    background: #1d2030;
+    padding: 25px;
+    border-right: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 4px 0 15px rgba(0,0,0,0.4);
+    overflow-y: auto;
+}
+
+
+#controls label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 0.3px;
+}
+
+#controls input,
+#controls select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.15);
+    background: #2a2e42;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+#controls input:focus,
+#controls select:focus {
+    outline: none;
+    border-color: #4da8ff;
+    box-shadow: 0 0 8px rgba(77,168,255,0.5);
+    background: #323855;
+}
+
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #0078ff, #005ce6);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: 0.2s;
+    box-shadow: 0 4px 15px rgba(0,120,255,0.4);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #4da8ff, #0078ff);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(77,168,255,0.5);
+}
+
+
+#map {
+    flex: 1;
+    height: 100%;
+}
+
+
+#info {
+    margin-top: 18px;
+    padding: 18px;
+    background: #232738;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.05);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+#info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CityMove - Rotas Inteligentes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="imagens/favicon.png">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZU4Gq5cEDB5aZ6mTmE1rKYe9rVuvk470&libraries=places&callback=initMap" async defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="imagens/logo.png" alt="CityMove" class="logo">
+        <div>
+            <h1>CityMove</h1>
+            <p>Seu app de rotas inteligentes</p>
+        </div>
+    </div>
+</header>
+
+<div id="container">
+
+    <div id="controls">
+
+        <label>Origem:</label>
+        <input id="origem" placeholder="Digite o ponto de partida">
+
+        <label>Destino:</label>
+        <input id="destino" placeholder="Digite o destino">
+
+        <label>Transporte:</label>
+        <select id="transporte">
+            <option value="DRIVING">Carro</option>
+            <option value="WALKING">Caminhada</option>
+            <option value="BICYCLING">Bicicleta</option>
+            <option value="TRANSIT">Ônibus</option>
+        </select>
+
+        <button onclick="calcularRota()">Calcular rota</button>
+
+        <div id="info"></div>
+    </div>
+
+    <div id="map"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
